@@ -27,7 +27,51 @@
 .App-link {
   color: #61dafb;
 }
+.main{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnAdd{
+  position: absolute;
+  border-radius: 8px;
+  width: 150px;
+  height: 80px;
+  background-color: #fbd261;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+  font-size: 24px;
+  font-family:sans-serif;
+  color: #fdfdfd;
+}
+.btnAdd:active {
+  background-color: #d4b04b;
+  box-shadow: 0 1px #666;
+  transform: translateY(2px);
+}
+.itemContainer{
+  position: absolute;
+  bottom: 0;
+  /* left: 0; */
+  width: 100%;
+  /* animation: wave 5s linear reverse infinite; */
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
 
+}
+@keyframes itemContainer {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,0 +1,36 @@
+.floatingElement {
+ position: relative;
+}
+.label{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.card{
+    max-width: 200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    flex: 1;
+    width: fit-content;
+    padding: 10px;
+    z-index: 3;
+}
+
+
+  
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* ปรับความสูงของการลอยตามความต้องการ */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
