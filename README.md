@@ -1,3 +1,7 @@
+# THIS IS CODE CREATE FOR 'Loy Krathong festival'
+
+This project was born cause My Girl Friend Want to hangout but There still too many people go to Loy Krathong festival at lake/beach then I Decided to create this website to make a place for her can be join a festival in mine place 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
